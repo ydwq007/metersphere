@@ -557,7 +557,12 @@ export default {
         expect: "Expect Value",
         expression: "Expression",
         response_in_time: "Response in time",
-        ignore_status: "Ignore Status"
+        ignore_status: "Ignore Status",
+        json_path_add: "Add JONPATH Assertions",
+        json_path_err: "The response result is not in JSON format",
+        json_path_suggest: "JSONPath Assertion Suggest",
+        json_path_clear: "Clear JSONPath Assertion",
+        debug_first: "First, debug to get the response",
       },
       extract: {
         label: "Extract from response",
@@ -848,6 +853,8 @@ export default {
       relevance_case: "Relevance Case",
       last_page: "It's the end！",
       execute_result: "Result",
+      cannot_edit: "Cannot edit this comment！",
+      cannot_delete: "Cannot delete this comment！",
     },
     module: {
       search: "Search module",
